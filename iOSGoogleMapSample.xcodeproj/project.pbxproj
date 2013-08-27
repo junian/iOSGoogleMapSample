@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		00055C8E17CC51B4001D5DED /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00055C8D17CC51B4001D5DED /* AVFoundation.framework */; };
+		0024930D17CC59990033479A /* JUNMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0024930C17CC59990033479A /* JUNMapViewController.m */; };
 		0059231D17C703C000B5ADEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0059231C17C703C000B5ADEE /* UIKit.framework */; };
 		0059231F17C703C000B5ADEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0059231E17C703C000B5ADEE /* Foundation.framework */; };
 		0059232117C703C000B5ADEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0059232017C703C000B5ADEE /* CoreGraphics.framework */; };
@@ -34,6 +35,8 @@
 
 /* Begin PBXFileReference section */
 		00055C8D17CC51B4001D5DED /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0024930B17CC59990033479A /* JUNMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JUNMapViewController.h; path = Controllers/JUNMapViewController.h; sourceTree = "<group>"; };
+		0024930C17CC59990033479A /* JUNMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JUNMapViewController.m; path = Controllers/JUNMapViewController.m; sourceTree = "<group>"; };
 		0059231917C703C000B5ADEE /* iOSGoogleMapSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSGoogleMapSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0059231C17C703C000B5ADEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0059231E17C703C000B5ADEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0024930A17CC59400033479A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0024930B17CC59990033479A /* JUNMapViewController.h */,
+				0024930C17CC59990033479A /* JUNMapViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		0059231017C703C000B5ADEE = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +145,7 @@
 		0059232217C703C000B5ADEE /* iOSGoogleMapSample */ = {
 			isa = PBXGroup;
 			children = (
+				0024930A17CC59400033479A /* Controllers */,
 				0059232B17C703C000B5ADEE /* JUNAppDelegate.h */,
 				0059232C17C703C000B5ADEE /* JUNAppDelegate.m */,
 				0059232317C703C000B5ADEE /* Supporting Files */,
@@ -223,6 +236,7 @@
 			files = (
 				0059232917C703C000B5ADEE /* main.m in Sources */,
 				0059232D17C703C000B5ADEE /* JUNAppDelegate.m in Sources */,
+				0024930D17CC59990033479A /* JUNMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
