@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GoogleMaps/GoogleMaps.h>
+
+#define GOOGLE_MAP_API_KEY @"you_api_key"
 
 @interface JUNAppDelegate : UIResponder <UIApplicationDelegate>
 
